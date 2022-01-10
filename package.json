@@ -1,0 +1,40 @@
+{
+  "name": "3d-model-converter",
+  "version": "1.0.0",
+  "description": "3d model converter using CLI",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hirenreshamwala/3d-model-converter.git"
+  },
+  "type": "module",
+  "keywords": [
+    "3D",
+    "cli",
+    "model",
+    "converter",
+    "three",
+    "threejs"
+  ],
+  "author": "Hiren Reshamwala (hiren.reshamwala@gmail.com)",
+  "license": "MIT",
+  "bin": {
+    "3d-model-converter": "./bin/index.js"
+  },
+  "dependencies": {
+    "chalk": "^5.0.0",
+    "three": "^0.136.0",
+    "vblob": "^1.0.2",
+    "yargs": "^17.3.1"
+  },
+  "devDependencies": {
+    "cesium": "^1.89.0"
+  },
+  "bugs": {
+    "url": "https://github.com/hirenreshamwala/3d-model-converter/issues"
+  },
+  "homepage": "https://github.com/hirenreshamwala/3d-model-converter#readme"
+}
