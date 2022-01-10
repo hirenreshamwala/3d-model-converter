@@ -4,7 +4,7 @@
 ### Installing
 
 ```bash
-$ npm install pm2 -g
+$ npm install 3d-model-converter -g
 ```
 
 ### Usage
